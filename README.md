@@ -34,6 +34,17 @@ You're in the right place.
 
 ---
 
+## Generate Changelog Tool and Skill (#1)
+
+Automated tool to generate categorized `CHANGELOG.md` from git history since the latest release tag.
+
+### Setup (3 Steps)
+1. Ensure executable permissions: `chmod +x changelog.sh`
+2. Generate your changelog: `./changelog.sh CHANGELOG.md`
+3. (Optional) Install Claude Code skill: `cp -r skills/generate-changelog ~/.claude/skills/`
+
+---
+
 ## Rules
 
 - Tasks must be related to Claude Code or AI tooling
